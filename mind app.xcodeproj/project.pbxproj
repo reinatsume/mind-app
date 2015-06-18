@@ -13,6 +13,11 @@
 		A9C52DB21B33038900BF0C83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DB11B33038900BF0C83 /* Images.xcassets */; };
 		A9C52DB51B33038900BF0C83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DB31B33038900BF0C83 /* LaunchScreen.xib */; };
 		A9C52DC11B33038A00BF0C83 /* mind_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52DC01B33038A00BF0C83 /* mind_appTests.swift */; };
+		A9C52DCB1B3303A800BF0C83 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52DCA1B3303A800BF0C83 /* ViewController2.swift */; };
+		A9C52DCD1B3303C500BF0C83 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52DCC1B3303C500BF0C83 /* ViewController3.swift */; };
+		A9C52DCF1B33041700BF0C83 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DCE1B33041700BF0C83 /* button.png */; };
+		A9C52DD11B33042500BF0C83 /* mind.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DD01B33042500BF0C83 /* mind.png */; };
+		A9C52DD31B33043900BF0C83 /* pictogram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DD21B33043900BF0C83 /* pictogram.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A9C52DBA1B33038A00BF0C83 /* mind appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mind appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C52DBF1B33038A00BF0C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9C52DC01B33038A00BF0C83 /* mind_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mind_appTests.swift; sourceTree = "<group>"; };
+		A9C52DCA1B3303A800BF0C83 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A9C52DCC1B3303C500BF0C83 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A9C52DCE1B33041700BF0C83 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		A9C52DD01B33042500BF0C83 /* mind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mind.png; sourceTree = "<group>"; };
+		A9C52DD21B33043900BF0C83 /* pictogram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pictogram.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,13 @@
 		A9C52DA71B33038900BF0C83 /* mind app */ = {
 			isa = PBXGroup;
 			children = (
+				A9C52DD21B33043900BF0C83 /* pictogram.jpg */,
+				A9C52DD01B33042500BF0C83 /* mind.png */,
+				A9C52DCE1B33041700BF0C83 /* button.png */,
 				A9C52DAA1B33038900BF0C83 /* AppDelegate.swift */,
 				A9C52DAC1B33038900BF0C83 /* ViewController.swift */,
+				A9C52DCA1B3303A800BF0C83 /* ViewController2.swift */,
+				A9C52DCC1B3303C500BF0C83 /* ViewController3.swift */,
 				A9C52DAE1B33038900BF0C83 /* Main.storyboard */,
 				A9C52DB11B33038900BF0C83 /* Images.xcassets */,
 				A9C52DB31B33038900BF0C83 /* LaunchScreen.xib */,
@@ -192,7 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C52DD31B33043900BF0C83 /* pictogram.jpg in Resources */,
 				A9C52DB01B33038900BF0C83 /* Main.storyboard in Resources */,
+				A9C52DD11B33042500BF0C83 /* mind.png in Resources */,
+				A9C52DCF1B33041700BF0C83 /* button.png in Resources */,
 				A9C52DB51B33038900BF0C83 /* LaunchScreen.xib in Resources */,
 				A9C52DB21B33038900BF0C83 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +232,8 @@
 			files = (
 				A9C52DAD1B33038900BF0C83 /* ViewController.swift in Sources */,
 				A9C52DAB1B33038900BF0C83 /* AppDelegate.swift in Sources */,
+				A9C52DCD1B3303C500BF0C83 /* ViewController3.swift in Sources */,
+				A9C52DCB1B3303A800BF0C83 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				A9C52DC61B33038A00BF0C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9C52DC71B33038A00BF0C83 /* Build configuration list for PBXNativeTarget "mind appTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				A9C52DC91B33038A00BF0C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
