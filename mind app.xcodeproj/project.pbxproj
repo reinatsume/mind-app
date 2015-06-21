@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98E2F021B351A27008D51B0 /* mind-01.png in Resources */ = {isa = PBXBuildFile; fileRef = A98E2EFE1B351A27008D51B0 /* mind-01.png */; };
+		A98E2F031B351A27008D51B0 /* mind-02.png in Resources */ = {isa = PBXBuildFile; fileRef = A98E2EFF1B351A27008D51B0 /* mind-02.png */; };
+		A98E2F041B351A27008D51B0 /* mind-03.png in Resources */ = {isa = PBXBuildFile; fileRef = A98E2F001B351A27008D51B0 /* mind-03.png */; };
+		A98E2F051B351A27008D51B0 /* mind-04.png in Resources */ = {isa = PBXBuildFile; fileRef = A98E2F011B351A27008D51B0 /* mind-04.png */; };
 		A9C52DAB1B33038900BF0C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52DAA1B33038900BF0C83 /* AppDelegate.swift */; };
 		A9C52DAD1B33038900BF0C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C52DAC1B33038900BF0C83 /* ViewController.swift */; };
 		A9C52DB01B33038900BF0C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C52DAE1B33038900BF0C83 /* Main.storyboard */; };
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A98E2EFE1B351A27008D51B0 /* mind-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mind-01.png"; sourceTree = "<group>"; };
+		A98E2EFF1B351A27008D51B0 /* mind-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mind-02.png"; sourceTree = "<group>"; };
+		A98E2F001B351A27008D51B0 /* mind-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mind-03.png"; sourceTree = "<group>"; };
+		A98E2F011B351A27008D51B0 /* mind-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mind-04.png"; sourceTree = "<group>"; };
 		A9C52DA51B33038900BF0C83 /* mind app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C52DA91B33038900BF0C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9C52DAA1B33038900BF0C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +95,10 @@
 		A9C52DA71B33038900BF0C83 /* mind app */ = {
 			isa = PBXGroup;
 			children = (
+				A98E2EFE1B351A27008D51B0 /* mind-01.png */,
+				A98E2EFF1B351A27008D51B0 /* mind-02.png */,
+				A98E2F001B351A27008D51B0 /* mind-03.png */,
+				A98E2F011B351A27008D51B0 /* mind-04.png */,
 				A9C52DD21B33043900BF0C83 /* pictogram.jpg */,
 				A9C52DD01B33042500BF0C83 /* mind.png */,
 				A9C52DCE1B33041700BF0C83 /* button.png */,
@@ -212,7 +224,11 @@
 				A9C52DD11B33042500BF0C83 /* mind.png in Resources */,
 				A9C52DCF1B33041700BF0C83 /* button.png in Resources */,
 				A9C52DB51B33038900BF0C83 /* LaunchScreen.xib in Resources */,
+				A98E2F031B351A27008D51B0 /* mind-02.png in Resources */,
 				A9C52DB21B33038900BF0C83 /* Images.xcassets in Resources */,
+				A98E2F051B351A27008D51B0 /* mind-04.png in Resources */,
+				A98E2F021B351A27008D51B0 /* mind-01.png in Resources */,
+				A98E2F041B351A27008D51B0 /* mind-03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

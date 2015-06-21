@@ -8,6 +8,17 @@
 
 import UIKit
 
-class ViewController3 : UIViewController {
+class ViewController3 : UIViewController{
+
+    var receiveArray:[String] = []
     
+     override func viewDidLoad() {
+        super.viewDidLoad()
+    
+    }
+   override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
 }
+
+}
+
